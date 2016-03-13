@@ -8,6 +8,11 @@ This is a demo of LDA modeling. The demo is a simulation of the experiment displ
 
 % --------------------------------------------------------------
 
+** run the code **: 
+``` Matlab
+>> demo_lda; 
+```                    
+
 Synthetic topics and generated copora: 
 ![alt text][copora]
 [copora]: https://github.com/HanchenXiong/Latent-Dirichlet-Allocation-demo/blob/master/copora.png
