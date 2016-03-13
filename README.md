@@ -8,7 +8,7 @@ This is a demo of LDA modeling. The demo is a simulation of the experiment displ
 
 % --------------------------------------------------------------
 
-** run the code **: 
+**run the code**: 
 ``` Matlab
 >> demo_lda; 
 ```                    
