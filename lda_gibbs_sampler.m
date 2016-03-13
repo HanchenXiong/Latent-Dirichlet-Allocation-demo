@@ -32,7 +32,7 @@ N_Z_D=zeros(M,K);  % the count of topics (Z) which are assigend to documents (D)
 N_Z=zeros(K);      % the sum of all count \sum_W{N_W_Z} for each Z
 
 % --------------------for visualization----------------------------------
-w_position=zeros(25,2);    % the 2D position correspond different indices
+w_position=zeros(25,2);  % the 2D position correspond different indices
 %                          % specify word index-position correspondence
         % -------------------------------------------------------------
         % |  1  |  2  |  3  |  4  |  5  | 
@@ -62,7 +62,7 @@ for m=1:M
 end;
 % gibbs sampling until converge
 cstep=0;
-nstep=100;
+nstep=300;
 
 while cstep<nstep
     cstep=cstep+1
@@ -99,9 +99,9 @@ while cstep<nstep
         end;
     end;
           
-    % visualize parameter theta   
-    if ismember(cstep,[1,10,30,80,150,300,500])
-        index_row=find([1,10,30,80,150,300,500]==cstep);
+    % visualize parameter theta
+    if ismember(cstep,[1,50,80,100,150,200,299])
+        index_row=find([1,50,80,100,150,200,299]==cstep);
         images=cell(K,1);
         for kk=1:K
             images{kk,1}=zeros(5,5);
@@ -127,4 +127,5 @@ for kk=1:K
     end;
 end;
 end
+
 
