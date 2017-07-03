@@ -15,9 +15,11 @@ This is a demo of LDA modeling. The demo is a simulation of the experiment displ
 
 Synthetic topics and generated copora: 
 ![alt text][copora]
+
 [copora]: https://github.com/HanchenXiong/Latent-Dirichlet-Allocation-demo/blob/master/copora.png
 
 
 Estimated theta parameters using Gibbs sampling: 
 ![alt text][theta]
+
 [theta]: https://github.com/HanchenXiong/Latent-Dirichlet-Allocation-demo/blob/master/estimated_theta.jpeg
